@@ -1,14 +1,14 @@
 # Music-Quiz-App
 A short quiz to test your music skills
 
-Prerequisites
-Android Phonernning on Android 4.4 or above
+Prerequisites:
+Android Phone running on Android 4.4 or above
 
 
 
-Built With
+Built With:
 Android Studio
 
 
-Authors
+Author:
 Samantha Gatwiri Mwenda
