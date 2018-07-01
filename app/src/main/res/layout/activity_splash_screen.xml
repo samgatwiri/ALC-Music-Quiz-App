@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="midterm.com.themusicquiz.SplashScreen">
+
+    <ImageView
+        android:id="@+id/imgMusic"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/music"
+        android:layout_marginTop="80dp"
+        />
+    <TextView
+        android:id="@+id/txtMusicQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MUSIC\nQUIZ"
+        android:textColor="@color/textColor"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_below="@id/imgMusic"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtMusicQuiz"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
